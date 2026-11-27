@@ -1,0 +1,95 @@
+{
+  "type": "movies",
+  "version": "0.1.0",
+  "categories": [
+    {
+      "id": "all",
+      "name": "All",
+      "total": 67
+    },
+    {
+      "id": "638",
+      "name": "ACTION/AVENTURE",
+      "total": 3,
+      "type": "movies"
+    },
+    {
+      "id": "1872",
+      "name": "NETFLIX 2026",
+      "total": 7,
+      "type": "movies"
+    },
+    {
+      "id": "857",
+      "name": "FILMS 2026",
+      "total": 30,
+      "type": "movies"
+    },
+    {
+      "id": "645",
+      "name": "THRILLER/CRIME",
+      "total": 4,
+      "type": "movies"
+    },
+    {
+      "id": "872",
+      "name": "HORREUR/EPOUVANTE",
+      "total": 3,
+      "type": "movies"
+    },
+    {
+      "id": "641",
+      "name": "COMÉDIE/DRAME",
+      "total": 4,
+      "type": "movies"
+    },
+    {
+      "id": "642",
+      "name": "DRAME/ROMANCE",
+      "total": 3,
+      "type": "movies"
+    },
+    {
+      "id": "699",
+      "name": "CLASSIQUE",
+      "total": 1,
+      "type": "movies"
+    },
+    {
+      "id": "644",
+      "name": "SCIENCE/FICTION/FANTASTIQUE",
+      "total": 3,
+      "type": "movies"
+    },
+    {
+      "id": "1186",
+      "name": "TOP CINEMA",
+      "total": 1,
+      "type": "movies"
+    },
+    {
+      "id": "646",
+      "name": "DRAME",
+      "total": 2,
+      "type": "movies"
+    },
+    {
+      "id": "1181",
+      "name": "MARVEL UNIVERS",
+      "total": 1,
+      "type": "movies"
+    },
+    {
+      "id": "856",
+      "name": "SAGA",
+      "total": 4,
+      "type": "movies"
+    },
+    {
+      "id": "854",
+      "name": "FILM 1980-1999",
+      "total": 1,
+      "type": "movies"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "type": "series",
+  "version": "0.1.0",
+  "categories": [
+    {
+      "id": "all",
+      "name": "All",
+      "total": 66
+    },
+    {
+      "id": "2237",
+      "name": "PRIME 4K",
+      "total": 1,
+      "type": "series"
+    },
+    {
+      "id": "891",
+      "name": "COMEDIE",
+      "total": 1,
+      "type": "series"
+    },
+    {
+      "id": "2136",
+      "name": "4K/UHD SERIES",
+      "total": 23,
+      "type": "series"
+    },
+    {
+      "id": "1600",
+      "name": "NETFLIX 2026",
+      "total": 10,
+      "type": "series"
+    },
+    {
+      "id": "1006",
+      "name": "SERIES 2026",
+      "total": 21,
+      "type": "series"
+    },
+    {
+      "id": "880",
+      "name": "SF | FANTASTIQUE",
+      "total": 1,
+      "type": "series"
+    },
+    {
+      "id": "893",
+      "name": "ANIMATION",
+      "total": 1,
+      "type": "series"
+    },
+    {
+      "id": "890",
+      "name": "ACTION | AVENTURE",
+      "total": 1,
+      "type": "series"
+    },
+    {
+      "id": "883",
+      "name": "CRIME | POLICIER",
+      "total": 2,
+      "type": "series"
+    },
+    {
+      "id": "888",
+      "name": "AMAZON PRIME",
+      "total": 1,
+      "type": "series"
+    },
+    {
+      "id": "878",
+      "name": "MANGA",
+      "total": 4,
+      "type": "series"
+    }
+  ]
+}
