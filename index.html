@@ -1,12 +1,72 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Ayerotef Studio — Posters IPTV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ayerotef Studio — AYEPOLIS catalog</title>
+  <meta name="description" content="Public AYEPOLIS catalog metadata and posters for Unity AyeMenu. GitHub Pages fallback — no IPTV credentials." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Literata:opsz,wght@7..72,400;7..72,600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/site.css" />
 </head>
 <body>
-  <h1>Ayerotef Studio</h1>
-  <p>Host posters VRChat (Image Loading — <code>*.github.io</code>).</p>
-  <p>Base : <code>https://ayerotef.github.io/Ayerotef-Studio/posters/</code></p>
+  <header class="site-header wrap">
+    <div class="brand-row">
+      <p class="brand">Ayerotef <span>Studio</span></p>
+      <nav class="nav" aria-label="Primary">
+        <a href="#unity">Unity URLs</a>
+        <a href="#browse">Browse</a>
+        <a href="AYEPOLIS/manifest.json">Manifest</a>
+        <a href="posters/">Posters</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <h2>AYEPOLIS public catalog</h2>
+      <p>
+        GitHub Pages hosts movie/series metadata and poster JPGs for AyeMenu.
+        Playback streams stay on the VPS — this site never ships IPTV credentials.
+      </p>
+      <span class="badge">Pages · metadata + posters only</span>
+    </section>
+
+    <section class="section wrap" id="unity">
+      <h3>Unity AyeMediaConfig</h3>
+      <p>Paste these VRCUrls into the GitHub fallback fields. Prefer the VPS when online; Pages is the offline catalog source.</p>
+      <dl class="url-grid" id="url-grid"></dl>
+      <p class="note">
+        <strong>Playback:</strong> <code>vpsRequiredForPlayback</code> is true.
+        When <code>usingGithubFallback</code> is active, CatalogDownloader must not request HLS streams from this host.
+      </p>
+    </section>
+
+    <section class="section wrap" id="browse">
+      <h3>Category browse</h3>
+      <p>Human preview of category totals from the published JSON (same payloads Unity downloads).</p>
+      <div class="tabs" role="tablist" aria-label="Media type">
+        <button type="button" class="tab" role="tab" data-kind="movies" aria-selected="true">Movies</button>
+        <button type="button" class="tab" role="tab" data-kind="series" aria-selected="false">Series</button>
+      </div>
+      <p class="status" id="cat-status">Loading…</p>
+      <ul class="cat-list" id="cat-list"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <p>
+      Endpoints:
+      <a href="AYEPOLIS/manifest.json">manifest</a> ·
+      <a href="configuration.json">configuration</a> ·
+      <a href="version.json">version</a> ·
+      <a href="categories/movies.json">movies</a> ·
+      <a href="categories/series.json">series</a>
+    </p>
+    <p>Repo: <a href="https://github.com/Ayerotef/Ayerotef-Studio">Ayerotef/Ayerotef-Studio</a></p>
+  </footer>
+
+  <script src="assets/site.js" defer></script>
 </body>
 </html>

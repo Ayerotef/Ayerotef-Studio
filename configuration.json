@@ -1,0 +1,15 @@
+{
+  "name": "AYEPOLIS",
+  "version": "0.1.0",
+  "posterBaseUrl": "https://ayerotef.github.io/Ayerotef-Studio/posters/",
+  "vpsRequiredForPlayback": true,
+  "usingGithubFallback": true,
+  "githubManifestUrl": "https://ayerotef.github.io/Ayerotef-Studio/AYEPOLIS/manifest.json",
+  "githubConfigurationUrl": "https://ayerotef.github.io/Ayerotef-Studio/configuration.json",
+  "githubVersionUrl": "https://ayerotef.github.io/Ayerotef-Studio/version.json",
+  "githubMoviesCategoriesUrl": "https://ayerotef.github.io/Ayerotef-Studio/categories/movies.json",
+  "githubSeriesCategoriesUrl": "https://ayerotef.github.io/Ayerotef-Studio/categories/series.json",
+  "apiHost": "https://vps-fe73acff.vps.ovh.ca",
+  "hlsHostHint": "vps-fe73acff.vps.ovh.ca",
+  "notes": "GitHub Pages hosts catalog metadata and posters only. Playback streams require VPS; CatalogDownloader usingGithubFallback must block stream requests."
+}
